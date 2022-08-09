@@ -2,7 +2,7 @@
   <div>
     <div v-if="walletConnection.connectionStatus === 'falseNetwork'" class="connet-wallet bronto flex justify-center  xl:pr-10 lg:pr-5 pr-1 text-center">
       <p class="xl:text-2xl lg:text-xl xs:text-base text-sm">Connected Wallet</p>
-      <p style="background: #BA4541" class="xl:text-xl lg:text-base xs:text-xs text-smal text-white ">
+      <p  class="xl:text-xl lg:text-base xs:text-xs text-smal bg-red-500 text-white ">
         {{ showShortAddress(walletConnection.address) }}
       </p>
     </div>
